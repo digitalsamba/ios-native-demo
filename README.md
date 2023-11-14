@@ -1,6 +1,6 @@
 #  DigitalSamba native app example
 
-This example media device permissions to be present in `Info.plist`, namely "Privacy - Microphone Usage Description" and "Privacy - Camera Usage Description".
+This example requires media device permissions to be present in `Info.plist`, namely "Privacy - Microphone Usage Description" and "Privacy - Camera Usage Description".
 
 There are a few components to this example. We create JS environment for embedded app in `frame.html`, similarly to how we would do on web.
 Few things of note
