@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAE865CA2B03D7C3006DAB62 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FAE865C92B03D7C3006DAB62 /* README.md */; };
 		FAF3D2F92AF39E19003108B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF3D2F82AF39E19003108B7 /* AppDelegate.swift */; };
 		FAF3D2FB2AF39E19003108B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF3D2FA2AF39E19003108B7 /* SceneDelegate.swift */; };
 		FAF3D2FD2AF39E19003108B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF3D2FC2AF39E19003108B7 /* ViewController.swift */; };
 		FAF3D3002AF39E19003108B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF3D2FE2AF39E19003108B7 /* Main.storyboard */; };
 		FAF3D3022AF39E1A003108B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF3D3012AF39E1A003108B7 /* Assets.xcassets */; };
 		FAF3D3052AF39E1A003108B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF3D3032AF39E1A003108B7 /* LaunchScreen.storyboard */; };
+		FAF3D30D2B00FF41003108B7 /* frame.html in Resources */ = {isa = PBXBuildFile; fileRef = FAF3D30C2B00FF41003108B7 /* frame.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FAE865C92B03D7C3006DAB62 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FAF3D2F52AF39E19003108B7 /* SambaEmbeddedStoryboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SambaEmbeddedStoryboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF3D2F82AF39E19003108B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF3D2FA2AF39E19003108B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		FAF3D3012AF39E1A003108B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF3D3042AF39E1A003108B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAF3D3062AF39E1A003108B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF3D30C2B00FF41003108B7 /* frame.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = frame.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		FAF3D2EC2AF39E19003108B7 = {
 			isa = PBXGroup;
 			children = (
+				FAE865C92B03D7C3006DAB62 /* README.md */,
 				FAF3D2F72AF39E19003108B7 /* SambaEmbeddedStoryboardDemo */,
 				FAF3D2F62AF39E19003108B7 /* Products */,
 			);
@@ -63,6 +68,7 @@
 				FAF3D3012AF39E1A003108B7 /* Assets.xcassets */,
 				FAF3D3032AF39E1A003108B7 /* LaunchScreen.storyboard */,
 				FAF3D3062AF39E1A003108B7 /* Info.plist */,
+				FAF3D30C2B00FF41003108B7 /* frame.html */,
 			);
 			path = SambaEmbeddedStoryboardDemo;
 			sourceTree = "<group>";
@@ -125,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF3D30D2B00FF41003108B7 /* frame.html in Resources */,
 				FAF3D3052AF39E1A003108B7 /* LaunchScreen.storyboard in Resources */,
+				FAE865CA2B03D7C3006DAB62 /* README.md in Resources */,
 				FAF3D3022AF39E1A003108B7 /* Assets.xcassets in Resources */,
 				FAF3D3002AF39E19003108B7 /* Main.storyboard in Resources */,
 			);
@@ -295,6 +303,8 @@
 				DEVELOPMENT_TEAM = 453VRZM7L5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SambaEmbeddedStoryboardDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "CAMERA ACES GIBE";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "WE NEED MIC ACCESS";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,6 +333,8 @@
 				DEVELOPMENT_TEAM = 453VRZM7L5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SambaEmbeddedStoryboardDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "CAMERA ACES GIBE";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "WE NEED MIC ACCESS";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
